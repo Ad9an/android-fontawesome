@@ -10,8 +10,8 @@ A Font Awesome is a font that you apply to your TextView and set the specific va
  ## How to Use in your project 
  
 
- - Download or copy the Model Class : https://www.google.com
- - Download or copy this class DataFontAwesome : https://www.google.com  and change the package name and use it accordingly.
+ - Download or copy the Model Class : https://www.google.com           //this is required if you want to add icon to listview
+ - Download or copy this class DataFontAwesome : https://www.google.com  and change the package name and use it accordingly.  //this is required if you want to add icon to listview
  - Download the font and add it to the assets-->Fonts or any name
 
 
@@ -25,7 +25,7 @@ A Font Awesome is a font that you apply to your TextView and set the specific va
 
 ## Add Text to the TextView
 
-> textView2.setText(Html.fromHtml("&#xf26e;"));
+> textView2.setText(Html.fromHtml("&#xf26e"));   //add ; at the end of text
 
 
 
