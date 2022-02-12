@@ -23,7 +23,7 @@ A Font Awesome is a font that you apply to your TextView and set the specific va
 
  > textView2.setTypeface(fontAwesomeFont);
 
-## Add Text to the TextView
+## Set Icon to the TextView
 
 > textView2.setText(Html.fromHtml("&#xf26e"));   //add ; at the end of text
 
